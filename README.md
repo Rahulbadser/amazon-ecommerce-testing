@@ -13,19 +13,15 @@ This project automates the testing of an Amazon e-commerce platform to ensure a 
 
 ```plaintext
 amazon-ecommerce-testing/
-├── tests/
-│   ├── login.robot           # Login-related test cases
-│   ├── search.robot          # Product search test cases
-│   ├── checkout.robot        # Checkout test cases
-│   └── ...                   # Additional test suites
-├── resources/
-│   ├── keywords.robot        # Custom keywords for reusability
-│   ├── variables.robot       # Environment-specific variables
-│   └── locators.robot        # Web element locators
-├── reports/
-│   ├── log.html              # Execution logs
-│   ├── report.html           # Summary test report
-│   └── output.xml            # XML output file for analysis
-├── .env                      # Environment variables for browser, URLs
+├── verify_product_details/
+│   ├── resourse          # Login-related links
+│   ├── variables          # Login related variables
+├── login.robot
+├── logout.robot
+├── output.xml
+├── report
+├── log  
+├── test.robot
+├── selenium-screenshot-1
+├── selenium-screenshot-2
 ├── README.md                 # Project documentation
-└── requirements.txt          # Python dependencies
